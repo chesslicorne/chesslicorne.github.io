@@ -14,11 +14,13 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   list-style-type: none;
+}
 
-  li {
+li {
     padding: 6px 0;
+}
 
-    a {
+a {
       --fill-color: #198CE6;
       position: relative;
       display: block;
@@ -31,10 +33,7 @@ ul {
       color: transparent;
       background-clip: text;
       transition: 0.5s linear;
-
-      &:hover {
+}
+&:hover {
         background-size: 100%;
-      }
-    }
-  }
 }
